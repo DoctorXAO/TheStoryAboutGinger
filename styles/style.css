@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	font-family: Handjet;
+	font-size: 35px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	padding: 5px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.coat-of-arms {
+	width: 64px;
+	image-rendering: pixelated;
+}
