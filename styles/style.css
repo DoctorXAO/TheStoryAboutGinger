@@ -9,6 +9,10 @@ body {
 	flex-direction: column;
 }
 
+p {
+	margin: 0;
+}
+
 .wrapper {
 	min-height: 100vh;
 	display: flex;
@@ -32,6 +36,7 @@ main {
 	margin: 0 25%;
 	padding: 25px;
 
+	font-size: 25px;
 	flex-grow: 1;
 }
 
@@ -50,4 +55,29 @@ footer {
 .coat-of-arms {
 	width: 64px;
 	image-rendering: pixelated;
+}
+
+.place-main-photo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.main-photo {
+	width: 128px;
+	image-rendering: pixelated;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+.main-text {
+	text-align: justify;
+}
+
+.special-object {
+	text-decoration: underline;
+	cursor: pointer;
 }
