@@ -1,0 +1,10 @@
+.main-welcome-frame {
+    padding: 25px;
+    background-color: #2C2C2C;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

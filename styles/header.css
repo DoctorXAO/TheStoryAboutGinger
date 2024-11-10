@@ -1,0 +1,35 @@
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0px 7%;
+}
+
+.header-logo {
+    background-color: #464646;
+    border-radius: 15px;
+    padding: 5px 10px;
+    transition: opacity 50ms;
+    cursor: pointer;
+}
+
+.header-logo:hover img.header-logo-picture {
+    opacity: 0.5;
+}
+
+img.header-logo-picture {
+    width: 192px;
+}
+
+.header-link {
+    color: white;
+    font-family: Handjet;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.header-link:hover {
+    opacity: 0.5;
+}

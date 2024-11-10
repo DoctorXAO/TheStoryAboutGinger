@@ -1,0 +1,19 @@
+.main-content {
+    font-family: Handjet;
+    color: #808080;
+    margin: 0px 7%;
+    padding: 25px;
+    background-color: #2C2C2C;
+    border-radius: 25px;
+}
+
+.button-great-action {
+    border: none;
+    border-radius: 15px;
+    background-color: purple;
+    cursor: pointer;
+    font-size: 35px;
+    font-family: Handjet;
+    padding: 15px;
+    color: white;
+}

@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 5px 17px;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+main {
+    background-color: #464646;
+    flex-grow: 1;
+    padding: 5px 17px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: Handjet;
+    font-weight: normal;
+    color: #808080;
+}
+
+input {
+    font-family: Handjet;
+    font-size: 18px
+}
+
+textarea {
+    font-family: Handjet;
+    font-size: 18px;
+    overflow-y: hidden;
+    width: 100%;
+    resize: none;
+}
+
+footer {
+    background-color: #2c2c2c;
+    color: #808080;
+    padding: 5px 17px;
+    font-family: Handjet;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

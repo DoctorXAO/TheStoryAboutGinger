@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>XAOTI</title>
+    <head>
+        <title>Simple stories creator</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="styles/general.css">
 		<link rel="stylesheet" href="styles/header.css">
 		<link rel="stylesheet" href="styles/main.css">
-		<link rel="stylesheet" href="styles/home.css">
 		<script src="scripts/general.js"></script>
-	</head>
-	<body>
-		<header>
+    </head>
+    <body>
+        <header>
 			<nav class="header-content">
 				<div class="header-logo" onclick="openPage('index.html')">
 					<img class="header-logo-picture" src="imgs/xaoti-white.png">
@@ -23,15 +22,19 @@
 				</div>
 			</nav>
 		</header>
-		<main>
-			<div class="main-welcome-frame">
-				<h1>Welcome to the main page of XAOTI</h1>
-				<p>Would you like to create a story?</p>
-				<button class="button-great-action" onclick="openPage('create-a-story.html')">Create a story</button>
+        <main>
+			<div class="main-content">
+				<form action="create-story">
+					The name of the story:<br>
+					<input type="text" name="title" placeholder="Enter the name of the story"><br>
+					The content of the story:<br>
+					<textarea name="content" oninput="autoResize(this)" placeholder="Enter the context of the story"></textarea><br>
+					<input type="submit" value="Submit">
+				</form>
 			</div>
-		</main>
-		<footer>
+        </main>
+        <footer>
 			XAOTI 2024
 		</footer>
-	</body>
+    </body>
 </html>
